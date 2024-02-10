@@ -199,8 +199,6 @@ h6 {
   .display-1 {
     font-size: calc(1rem + 10.5vw) ;
   }
-
-
 }
 
 .display-3 {
@@ -1204,11 +1202,15 @@ h6,
 .bronze-medal {
   color: #CD7F32 !important;
 }
-#about .container h1.text-white:first-of-type,
-#qualification .container h1.text-white:first-of-type,
-#skill .container h1.text-white:first-of-type,
-#awards .container h1.text-white:first-of-type,
-#portfolio .container h1.text-white:first-of-type
+#about h1.display-1:first-of-type,
+#qualification h1.text-white:first-of-type,
+#skill h1.text-white:first-of-type,
+#awards h1.text-white:first-of-type,
+#portfolio h1.text-white:first-of-type
 {
   -webkit-text-stroke: 1px #dee2e6;
+}
+
+h1.display-3{
+  -webkit-text-stroke: 1px white;
 }
