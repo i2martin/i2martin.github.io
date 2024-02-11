@@ -197,7 +197,7 @@ h6 {
 
 @media (max-width: 1200px) {
   .display-1 {
-    font-size: calc(1rem + 10.5vw) ;
+    font-size: calc(1rem + 9vw) ;
   }
 }
 
@@ -1213,4 +1213,14 @@ h6,
 
 h1.display-3{
   -webkit-text-stroke: 1px white;
+}
+.custom-link:hover{
+  transform: scale(1.03);
+  transition: 0.5;
+  text-decoration: underline;
+  text-decoration-color: #6c757d;
+}
+.project-link-text{
+  color: white;
+  text-align:center;
 }
