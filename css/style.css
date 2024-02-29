@@ -1224,3 +1224,13 @@ h1.display-3{
   color: white;
   text-align:center;
 }
+
+.flag-size{
+  width:1.5rem;
+  margin-right: 0.1rem;
+  padding: 0;
+}
+.rounded-circle-10{
+  border: 0.5px solid var(--secondary);
+  border-radius: 10%;
+}
